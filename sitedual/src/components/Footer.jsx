@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaFacebook,  FaInstagram} from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -14,15 +14,11 @@ const Footer = () => {
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="mx-3 text-xl hover:text-blue-500">
             <FaFacebook />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="mx-3 text-xl hover:text-blue-400">
-            <FaTwitter />
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="mx-3 text-xl hover:text-pink-500">
+         
+          <a href="https://www.instagram.com/vallecentroempresarial" target="_blank" rel="noopener noreferrer" className="mx-3 text-xl hover:text-pink-500">
             <FaInstagram />
           </a>
-          <a href="mailto:exemplo@dominio.com" className="mx-3 text-xl hover:text-red-500">
-            <FaEnvelope />
-          </a>
+        
         </div>
 
         {/* Endereço */}

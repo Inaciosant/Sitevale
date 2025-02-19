@@ -15,14 +15,13 @@ const Formulario = () => {
     });
   };
 
-  // Função para formatar telefone
   const handlePhoneChange = (e) => {
     let value = e.target.value;
     
-    // Remove caracteres não numéricos
+    
     value = value.replace(/\D/g, "");
 
-    // Aplica a máscara (XX) XXXXX-XXXX
+    
     if (value.length > 10) {
       value = value.replace(/^(\d{2})(\d{5})(\d{4}).*/, "($1) $2-$3");
     } else if (value.length > 6) {

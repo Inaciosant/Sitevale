@@ -7,9 +7,15 @@ const SobreEmpreendimento = () => {
                 <div className="flex-1">
                     <h2 className="text-3xl font-bold border-b-4 border-white inline-block pb-2">Sobre o Empreendimento</h2>
                     <p className="mt-4 text-lg">
-                        O Valle Empreendimento é um loteamento planejado para proporcionar segurança,
-                        conforto e qualidade de vida para você e sua família. Com infraestrutura completa
-                        e localização privilegiada, é o lugar ideal para construir o seu futuro.
+                        Bem-vindo ao Loteamento Valle Centro Empresarial – 
+                        O Futuro dos Negócios Começa Aqui! Estrategicamente localizado para impulsionar 
+                        o crescimento da sua empresa, 
+                        o Loteamento Valle Centro Empresarial é um empreendimento planejado para atender às demandas de 
+                        indústrias, comércios, centros logísticos e prédios de escritórios Com infraestrutura com vias 
+                        amplas, segurança e fácil acesso às principais rodovias e centro urbano , 
+                        nosso loteamento oferece tudo o que sua empresa precisa para crescer com eficiência e 
+                        sustentabilidade. O Valle Centro Empresarial é a escolha ideal para quem busca localização
+                         privilegiada, comodidade e um ambiente preparado para o sucesso.
                     </p>
                 </div>
                 <div className="flex-1 flex justify-center">
@@ -49,13 +55,13 @@ const SobreEmpreendimento = () => {
             </div>
 
             <div className="mt-8 flex justify-center gap-6">
-                <button className="bg-white text-blue-600 px-8 py-3 rounded-lg shadow-md hover:bg-blue-600 hover:text-white transition-all"  onClick={() => window.location.href = 'https://www.google.com/maps?q=-22.890389,-46.540361'}  >
+                <button className="bg-white text-blue-600 px-8 py-3 rounded-lg shadow-md hover:bg-blue-600 hover:text-white transition-all" onClick={() => window.location.href = 'https://www.google.com/maps?q=-22.890389,-46.540361'}  >
                     Localização
                 </button>
                 <a href="#form">
-                <button className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg shadow-md hover:bg-white hover:text-blue-600 transition-all">
-                    Quero Saber Mais
-                </button>
+                    <button className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg shadow-md hover:bg-white hover:text-blue-600 transition-all">
+                        Quero Saber Mais
+                    </button>
                 </a>
             </div>
         </section>
