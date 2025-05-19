@@ -11,7 +11,7 @@ const Footer = () => {
 
         {/* Redes Sociais e Email */}
         <div className="flex justify-center mb-4">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="mx-3 text-xl hover:text-blue-500">
+          <a href="https://www.facebook.com/vallecentroempresarial" target="_blank" rel="noopener noreferrer" className="mx-3 text-xl hover:text-blue-500">
             <FaFacebook />
           </a>
          
